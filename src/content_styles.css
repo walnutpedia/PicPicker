@@ -1,0 +1,45 @@
+#picPickerSideBar{
+  position:fixed;
+  left:0;
+  top:0;
+  height:100%;
+  width:300px;
+  border-right:1px solid #bcbcbc;
+  background:#fff;
+  overflow: auto;
+  z-index: 1000000;
+  -webkit-box-shadow: #cccccc 1px 0 3px;
+  -moz-box-shadow: #cccccc 1px 0 3px;
+  box-shadow: #cccccc 1px 0 3px;
+}
+
+#picPickerSideBar .title{
+  font-family: serif;
+  font-size: 18px;
+  text-align: center;
+  color: #444;
+  padding: 20px 0 20px;
+  box-shadow: rgba(99,99,99,.4) 0 2px 7px;
+  background: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 300px;
+  z-index: 1000001;
+}
+
+#picPickerPickedImages{
+  margin-top: 80px;
+}
+
+#picPickerPickedImages .image{
+  width: 260px;
+  margin: 0 auto 20px;
+  box-shadow: rgba(99,99,99,.4) 0 2px 7px;
+  z-index: 1;
+}
+
+#picPickerPickedImages .image img{
+  display: block;
+  width: 100%;
+}
