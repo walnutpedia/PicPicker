@@ -3,6 +3,8 @@
   "name": "PicPicker",
   "description": "A picture picker",
   "version": "0.1",
+  "author": "WalnutZhang",
+  "homepage_url": "https://github.com/walnutzhang/PicPicker",
   "icons": {
     "128": "icon128.png",
     "48": "icon48.png"
